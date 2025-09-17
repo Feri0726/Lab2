@@ -9,4 +9,5 @@ int main() {
     x = x*x;
     printf("x square is: %d", x);
     return 0;
+
 }
