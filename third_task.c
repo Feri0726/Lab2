@@ -4,7 +4,13 @@
 int main()
 {
     // declare variables
-
+    float x1, x2, a, b, c, d;
+    printf("Give the equation: a, b, c");
+    scanf("%f%f%f", &a, &b, &c);
+    d = b*b-4*a*c;
+    x1 = (-b + sqrt(d))/(2*a);
+    x2 = (-b - sqrt(d))/(2*a);
+    printf("first solution: %f, second solution: %f ", x1, x2);
     // get user input
 
     /* calculate the discriminant   <-- this is a comment for multiple lines
